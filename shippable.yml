@@ -1,0 +1,20 @@
+language: python                               
+
+python:                                      
+  - 2.7                 
+
+build:                                                  
+  pre_ci_boot:                          
+    image_name: dry-doc/u14pyt
+    image_tag: prod
+    pull: true
+    options:
+
+  ci:
+
+  post_ci:
+    - ls -a
+    - pwd
+
+  cache: false
+
