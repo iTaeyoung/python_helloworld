@@ -4,12 +4,6 @@ python:
   - 2.7                 
 
 build:                                                  
-  pre_ci_boot:                          
-    image_name: dry-dock/u14pyt
-    image_tag:
-    pull: true
-    options:
-
   ci:
 
   post_ci:
