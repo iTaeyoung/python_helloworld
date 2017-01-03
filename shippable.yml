@@ -9,6 +9,8 @@ build:
   post_ci:
     - ls -a
     - pwd
+    - cd python_helloworld
+    - python hello_world.py
 
   cache: false
 
